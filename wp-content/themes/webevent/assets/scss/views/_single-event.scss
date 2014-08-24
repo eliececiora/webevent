@@ -1,0 +1,205 @@
+.single-event {
+	h2 {
+		text-transform: uppercase;
+		margin-bottom: 30px;
+	}
+}
+
+.heading-event {
+	.heading-cover-event {
+		position: relative;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		background-position: center center;
+		background-attachment: fixed;
+		width: 100%;
+		height: 350px;
+	}
+	.heading-meta-event {
+		position: absolute;
+		padding-top: 120px;
+		width: 100%;
+		height: 350px;
+		color: white;
+		h1 {
+			font-weight: 500;
+		}
+		p {
+			color: white;
+		}
+	}
+	.heading-cover-bg {
+		background-color: rgba(0,0,0,0.6);
+		.title-event {
+			margin-bottom: 30px;
+		}
+	}
+}
+
+.about-event {
+	.section1 {
+		padding: 80px 0;
+		.description {
+			margin: 0 auto;
+			h2 {
+				padding-bottom: 20px;		
+			}
+			@media (max-width: 767px) {
+				margin-bottom: 40px;
+			}
+			.lead {
+				font-size: 20px;
+				font-family: $font-family-serif;
+			}
+		}
+		.sidebar {
+			float: right;
+			@media (max-width: 767px) {
+				float: none;		
+			}
+			.btn {
+				width: 100%;
+				padding: 20px 0;
+			}
+			h5 {
+				text-transform: uppercase;
+			}
+			.location,.schedule,.price {
+				margin: 40px 0;
+			}
+		}
+		.share-btn {
+			.btn {
+				font-size: 10px;
+				color: white;
+				width: auto;
+				padding: 7px;
+				// padding: 7px 35px;
+				border: none;
+				.text {
+					margin: 0 20px;
+				}
+			}
+			.btn-fb {
+				margin-right: 7px;
+				background-color: #3B5998;
+				&:hover {
+					background-color: darken(#3B5998,10%);
+				}
+				.facebook-icon {
+					float: left;
+					background-image: url(../../assets/images/icons/social/facebook-white.svg);
+					width: 14px;
+					height: 14px;
+				}
+			}
+			.btn-tw {
+				background-color: #4099FF;
+				&:hover {
+					background-color: darken(#4099FF,10%);
+				}
+				.twitter-icon {
+					float: left;
+					background-image: url(../../assets/images/icons/social/twitter-white.svg);
+					width: 14px;
+					height: 14px;
+				}
+			}
+		}
+	}
+
+	.section2 {
+		padding: 80px 0;
+		background-color: $gray-lighter;
+		.speaker {
+			.speaker-name {
+				font-size: 18px;
+				margin: 30px 0 20px 0;
+			}
+			.speaker-avatar {
+				margin: 0 auto;
+				background-position: center center;
+				-webkit-background-size: cover;
+				-moz-background-size: cover;
+				-o-background-size: cover;
+				background-size: cover;
+				width: 120px;
+				height: 120px;
+				border-radius: 60px;
+				margin-bottom: 30px;
+			}
+		}
+	}
+		
+	.links {
+		padding: 20px 20px;
+		ul {
+			display: inline-block;
+			padding: 0;
+			margin: 0 auto;
+			li {
+				margin-top: 5px;
+				float: left;
+				list-style: none;
+				a {
+					padding: 0px 20px;
+					color: $gray;
+					font-size: 14px;
+					text-transform: uppercase;
+					letter-spacing: 0.6rem;
+					font-weight: 400;
+					&:hover {
+						text-decoration: none;
+						color: $gray-light;
+					}
+					@media (max-width: 767px) {
+					  width: 100%;
+					  padding: 0 7px;
+					  font-size: 12px;
+					}
+				}
+			}
+		}
+	}
+}
+
+
+.about-place {
+	img.banner-place {
+		width: 100%;
+		height: 350px;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		background-position: center center;
+	}
+	.section1 {
+		padding: 80px 0;
+	}
+	h3 {
+		font-weight: 400;
+		text-transform: none;
+	}
+	.WhereToStay {
+		margin-bottom: 40px;
+		@media (max-width: 767px) {
+		  margin-top: 0;
+		}
+	}
+	.FoodDrink {
+		.stay {
+			@media (max-width: 767px) {
+				margin-bottom: 15px;
+			}
+		}
+	}
+}
+
+.about-place {
+	.section1 {
+		padding: 80px 0; 
+	}
+}

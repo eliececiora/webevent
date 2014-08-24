@@ -1,0 +1,89 @@
+.page-template-page-contact-php {
+	.navbar-default {
+		background-color: $brand-primary;
+		.navbar-header {
+			@media (max-width: 767px) {
+				padding: 0 0 18px 10px;
+				background-color: $brand-primary;
+			}	
+		}
+		.navbar-brand {
+			margin-top: 15px;
+			background-image: url(../../assets/images/logo/webevent-2.svg);
+			width: 100px;
+			height: 35px;
+			color: transparent;
+			&:hover {
+				color: transparent;
+			}
+			@media (max-width: 767px) {
+				margin-top: 20px;
+			}
+		}
+	}
+}
+
+.navbar {
+	z-index: 1000;
+	background-color: transparent;
+	margin-bottom: -62px;
+}
+
+.nav {
+	a {
+		margin: 0;
+		letter-spacing: 2px;
+		font-size: 14px;
+		font-weight: 500;
+		color: $gray-light;
+		text-decoration: none;
+		text-transform: uppercase;
+		transition: 0.2s ease-in-out;		
+	}
+}
+
+.form-contact {
+	padding: 100px 0 40px 0;
+	height: 100%;
+	background-color: $brand-primary;
+	@media (max-width: 767px) {
+		padding: 100px 10px 40px 10px;
+	}
+	h1{
+		margin: 35px 0 30px 0;
+		// text-transform: uppercase;
+		color: white;
+	}
+	p {
+		padding-right: 20px;
+		color: white;
+	}
+	form {
+		padding: 40px;
+		margin: 0 auto;
+		background-color: white;
+		.form-group {
+			margin-top: 40px;
+		}
+		input, textarea, select, option {
+			border-radius: none;
+			border-bottom: 1px solid $gray-light;
+			padding-left: 0;
+			padding-bottom: 30px;
+		}
+		textarea {
+			border: none;
+		}
+	}
+	.btn {
+		display: block;
+		margin-top: 30px;
+		background-color: white;
+		border: none;
+		color: $brand-primary;
+		&:hover {
+			background-color: black;
+			color: white;
+		}
+	}	
+}

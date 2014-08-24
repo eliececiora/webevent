@@ -1,0 +1,96 @@
+.archives {
+	.heading-event {
+		.heading-cover-event {
+			position: relative;
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+			background-position: center center;
+			background-attachment: fixed;
+			width: 100%;
+			height: 350px;
+		}
+		.infos-event {
+			p {
+				width: 72%;
+				@media (max-width: 767px) {
+					width: 95%;
+					font-size: 14px;
+					line-height: 1.4;
+				}
+			}
+		}
+	}
+}
+
+.ThisMonth {
+	display: inline-block;
+	padding: 2px 10px;
+	margin-bottom: 10px;
+	background-color: $brand-primary;
+	font-size: 30px;
+	color: white;
+	text-transform: uppercase;
+	font-family: "Roboto";
+}
+
+.event-list {
+	.heading-cover-event {
+		background-attachment: scroll;
+		height: 450px;
+		margin-bottom: 80px;
+	}
+	.heading-meta-event {
+		background-color: rgba(0,0,0,0.6);
+		padding: 100px 0 20px 0px;
+		@media (max-width: 767px) {
+			padding-top: 80px;
+		}
+	}
+	// .pagination {
+	// 	margin-bottom: 40px;
+	// 	@media (max-width: 767px) {
+	// 		padding: 0 10px;
+	// 	}
+	// }
+	// .big-title {
+	// 	margin: 40px 0 20px 0;
+	// 	@media (max-width: 767px) {
+	// 		padding: 0 10px;
+	// 	}
+	// }
+	.item-event {
+		margin-bottom: 80px;
+		position: relative;
+		&:after {
+			position: absolute;
+			content: "";
+			left: 0;
+			width: 100%;
+			bottom: -40px;
+			opacity: 0.4;
+			border: 1px solid $gray-lighter;
+		}
+		.meta-infos {
+			.infos-pratique {
+				color: $gray-darker;
+			}
+		}
+	}
+}
+
+.thumbnail-event-cover {
+	display: block;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: center center; 
+	width: 100%;
+	height: 220px;
+	@media (max-width: 767px) {
+		padding: 0 10px;
+		margin-bottom: 12px;
+	}
+}
